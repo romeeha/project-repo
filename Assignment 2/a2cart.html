@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - Mahii's Clothing Store</title>
+    <link rel="stylesheet" href="assignment1b.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header class="bg-gray-800 text-white">
+        <div class="container mx-auto flex flex-wrap justify-between items-center p-4">
+          <a href="assignment1b.html">
+            <img src="stylesss/mahii.png" alt="Store Logo" class="w-28" />
+          </a>
+          <nav class="space-x-4 text-sm">
+            <a href="assignment1b.html" class="hover:text-gray-300">Home</a>
+            <a href="a2about.html" class="hover:text-gray-300">Shop</a>
+            <a href="a2blog.html" class="hover:text-gray-300">Blog</a>
+            <a href="a2about.html" class="hover:text-gray-300">About</a>
+            <a href="a2contact.html" class="hover:text-gray-300">Contact</a>
+            <a href="a2cart.html" class="hover:text-gray-300">Cart</a>
+          </nav>
+        </div>
+      </header>
+
+    <!-- Cart Section -->
+    <section>
+        <center>
+            <h1>🛒 Your Shopping Cart</h1>
+            <hr width="50%">
+            <p>Review your selected items before checkout!</p>
+        </center>
+
+        <br>
+
+        <table width="90%" align="center" border="1" cellpadding="10" cellspacing="0">
+            <tr bgcolor="#f2f2f2">
+                <th>Product</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+            </tr>
+
+            <!-- Example Item 1 -->
+            <tr align="center">
+                <td><img src="stylesss/product1.jpg" alt="Stylish Jacket" width="100"></td>
+                <td>Stylish Jacket</td>
+                <td>RS2559.99</td>
+                <td>1</td>
+                <td>RS2559.99</td>
+            </tr>
+
+            <!-- Example Item 2 -->
+            <tr align="center">
+                <td><img src="stylesss/product2.jpg" alt="Casual T-shirt" width="100"></td>
+                <td>Casual T-shirt</td>
+                <td>RS519.99</td>
+                <td>2</td>
+                <td>RS1039.98</td>
+            </tr>
+
+            <!-- Example Item 3 -->
+            <tr align="center">
+                <td><img src="stylesss/product3.jpg" alt="Elegant Dress" width="100"></td>
+                <td>Elegant Dress</td>
+                <td>RS5669.99</td>
+                <td>1</td>
+                <td>RS5669.99</td>
+            </tr>
+
+            <!-- Total Row -->
+            <tr bgcolor="#f9f9f9">
+                <td colspan="4" align="right"><b>Grand Total:</b></td>
+                <td align="center"><b>RS9269.96</b></td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <center>
+            <a href="a2shop.html">
+                <button style="padding:10px 20px;">🛍️ Continue Shopping</button>
+            </a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="a2cart.html">
+                <button style="padding:10px 20px;">💳 Proceed to Checkout</button>
+            </a>
+        </center>
+    </section>
+
+    <br><br>
+
+    <!-- Footer -->
+    <footer>
+        <table width="100%" bgcolor="#333" cellpadding="10">
+            <tr>
+                <td align="center">
+                    <font color="white">&copy; 2025 Mahii's Clothing Store. All rights reserved.</font>
+                </td>
+            </tr>
+        </table>
+    </footer>
+
+</body>
+</html>
